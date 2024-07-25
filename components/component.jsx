@@ -3,7 +3,10 @@
  * @see https://v0.dev/t/9iCJ9WaG3DU
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+<<<<<<< HEAD
 import Image from 'next/image';
+=======
+>>>>>>> 7928bd07864df361411b0e36843b7470b096cb72
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem } from "@/components/ui/dropdown-menu"
@@ -44,6 +47,7 @@ export default function Component() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon" className="rounded-full">
+<<<<<<< HEAD
                 <Image
   src="/images/Jamie_Vary_2018.jpg"  // Adjust the path according to where you saved your image
   width={500}               // Specify the width
@@ -51,6 +55,9 @@ export default function Component() {
   alt="Description of Image" // Provide a descriptive alt text
   className="rounded-full"   // Any additional classes
 />
+=======
+                <img src="/placeholder.svg" width="32" height="32" className="rounded-full" alt="Avatar" />
+>>>>>>> 7928bd07864df361411b0e36843b7470b096cb72
                 <span className="sr-only">Toggle user menu</span>
               </Button>
             </DropdownMenuTrigger>
